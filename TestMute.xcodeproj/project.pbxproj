@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0B85F0191A424900B0C5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85EF191A424900B0C5EC /* Foundation.framework */; };
+		FC0B85F2191A424900B0C5EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85F1191A424900B0C5EC /* CoreGraphics.framework */; };
+		FC0B85F4191A424900B0C5EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85F3191A424900B0C5EC /* UIKit.framework */; };
+		FC0B85FA191A424900B0C5EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0B85F8191A424900B0C5EC /* InfoPlist.strings */; };
+		FC0B85FC191A424900B0C5EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B85FB191A424900B0C5EC /* main.m */; };
+		FC0B8600191A424A00B0C5EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B85FF191A424A00B0C5EC /* AppDelegate.m */; };
+		FC0B8603191A424A00B0C5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0B8601191A424A00B0C5EC /* Main.storyboard */; };
+		FC0B8606191A424A00B0C5EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B8605191A424A00B0C5EC /* ViewController.m */; };
+		FC0B8608191A424A00B0C5EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0B8607191A424A00B0C5EC /* Images.xcassets */; };
+		FC0B860F191A424A00B0C5EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B860E191A424A00B0C5EC /* XCTest.framework */; };
+		FC0B8610191A424A00B0C5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85EF191A424900B0C5EC /* Foundation.framework */; };
+		FC0B8611191A424A00B0C5EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85F3191A424900B0C5EC /* UIKit.framework */; };
+		FC0B8619191A424A00B0C5EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0B8617191A424A00B0C5EC /* InfoPlist.strings */; };
+		FC0B861B191A424A00B0C5EC /* TestMuteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B861A191A424A00B0C5EC /* TestMuteTests.m */; };
+		FC0B8626191A449100B0C5EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B8625191A449100B0C5EC /* AudioToolbox.framework */; };
+		FC0B862A191A65E400B0C5EC /* MuteChecker.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC0B8624191A42BC00B0C5EC /* MuteChecker.caf */; };
+		FC0B8630191A684700B0C5EC /* MuteChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B862F191A684700B0C5EC /* MuteChecker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0B8612191A424A00B0C5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0B85E4191A424900B0C5EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0B85EB191A424900B0C5EC;
+			remoteInfo = TestMute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0B85EC191A424900B0C5EC /* TestMute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0B85EF191A424900B0C5EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC0B85F1191A424900B0C5EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC0B85F3191A424900B0C5EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC0B85F7191A424900B0C5EC /* TestMute-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMute-Info.plist"; sourceTree = "<group>"; };
+		FC0B85F9191A424900B0C5EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC0B85FB191A424900B0C5EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0B85FD191A424900B0C5EC /* TestMute-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMute-Prefix.pch"; sourceTree = "<group>"; };
+		FC0B85FE191A424900B0C5EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC0B85FF191A424A00B0C5EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC0B8602191A424A00B0C5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC0B8604191A424A00B0C5EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC0B8605191A424A00B0C5EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC0B8607191A424A00B0C5EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC0B860D191A424A00B0C5EC /* TestMuteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMuteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0B860E191A424A00B0C5EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC0B8616191A424A00B0C5EC /* TestMuteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMuteTests-Info.plist"; sourceTree = "<group>"; };
+		FC0B8618191A424A00B0C5EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC0B861A191A424A00B0C5EC /* TestMuteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMuteTests.m; sourceTree = "<group>"; };
+		FC0B8624191A42BC00B0C5EC /* MuteChecker.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuteChecker.caf; sourceTree = "<group>"; };
+		FC0B8625191A449100B0C5EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC0B862E191A684700B0C5EC /* MuteChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteChecker.h; sourceTree = "<group>"; };
+		FC0B862F191A684700B0C5EC /* MuteChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteChecker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0B85E9191A424900B0C5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0B8626191A449100B0C5EC /* AudioToolbox.framework in Frameworks */,
+				FC0B85F2191A424900B0C5EC /* CoreGraphics.framework in Frameworks */,
+				FC0B85F4191A424900B0C5EC /* UIKit.framework in Frameworks */,
+				FC0B85F0191A424900B0C5EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0B860A191A424A00B0C5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0B860F191A424A00B0C5EC /* XCTest.framework in Frameworks */,
+				FC0B8611191A424A00B0C5EC /* UIKit.framework in Frameworks */,
+				FC0B8610191A424A00B0C5EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0B85E3191A424900B0C5EC = {
+			isa = PBXGroup;
+			children = (
+				FC0B85F5191A424900B0C5EC /* TestMute */,
+				FC0B8614191A424A00B0C5EC /* TestMuteTests */,
+				FC0B85EE191A424900B0C5EC /* Frameworks */,
+				FC0B85ED191A424900B0C5EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0B85ED191A424900B0C5EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0B85EC191A424900B0C5EC /* TestMute.app */,
+				FC0B860D191A424A00B0C5EC /* TestMuteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0B85EE191A424900B0C5EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0B8625191A449100B0C5EC /* AudioToolbox.framework */,
+				FC0B85EF191A424900B0C5EC /* Foundation.framework */,
+				FC0B85F1191A424900B0C5EC /* CoreGraphics.framework */,
+				FC0B85F3191A424900B0C5EC /* UIKit.framework */,
+				FC0B860E191A424A00B0C5EC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC0B85F5191A424900B0C5EC /* TestMute */ = {
+			isa = PBXGroup;
+			children = (
+				FC0B85FE191A424900B0C5EC /* AppDelegate.h */,
+				FC0B85FF191A424A00B0C5EC /* AppDelegate.m */,
+				FC0B8601191A424A00B0C5EC /* Main.storyboard */,
+				FC0B8604191A424A00B0C5EC /* ViewController.h */,
+				FC0B8605191A424A00B0C5EC /* ViewController.m */,
+				FC0B862E191A684700B0C5EC /* MuteChecker.h */,
+				FC0B862F191A684700B0C5EC /* MuteChecker.m */,
+				FC0B8607191A424A00B0C5EC /* Images.xcassets */,
+				FC0B85F6191A424900B0C5EC /* Supporting Files */,
+			);
+			path = TestMute;
+			sourceTree = "<group>";
+		};
+		FC0B85F6191A424900B0C5EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0B8624191A42BC00B0C5EC /* MuteChecker.caf */,
+				FC0B85F7191A424900B0C5EC /* TestMute-Info.plist */,
+				FC0B85F8191A424900B0C5EC /* InfoPlist.strings */,
+				FC0B85FB191A424900B0C5EC /* main.m */,
+				FC0B85FD191A424900B0C5EC /* TestMute-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC0B8614191A424A00B0C5EC /* TestMuteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0B861A191A424A00B0C5EC /* TestMuteTests.m */,
+				FC0B8615191A424A00B0C5EC /* Supporting Files */,
+			);
+			path = TestMuteTests;
+			sourceTree = "<group>";
+		};
+		FC0B8615191A424A00B0C5EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0B8616191A424A00B0C5EC /* TestMuteTests-Info.plist */,
+				FC0B8617191A424A00B0C5EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0B85EB191A424900B0C5EC /* TestMute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0B861E191A424A00B0C5EC /* Build configuration list for PBXNativeTarget "TestMute" */;
+			buildPhases = (
+				FC0B85E8191A424900B0C5EC /* Sources */,
+				FC0B85E9191A424900B0C5EC /* Frameworks */,
+				FC0B85EA191A424900B0C5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMute;
+			productName = TestMute;
+			productReference = FC0B85EC191A424900B0C5EC /* TestMute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0B860C191A424A00B0C5EC /* TestMuteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0B8621191A424A00B0C5EC /* Build configuration list for PBXNativeTarget "TestMuteTests" */;
+			buildPhases = (
+				FC0B8609191A424A00B0C5EC /* Sources */,
+				FC0B860A191A424A00B0C5EC /* Frameworks */,
+				FC0B860B191A424A00B0C5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0B8613191A424A00B0C5EC /* PBXTargetDependency */,
+			);
+			name = TestMuteTests;
+			productName = TestMuteTests;
+			productReference = FC0B860D191A424A00B0C5EC /* TestMuteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0B85E4191A424900B0C5EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "FBM Development";
+				TargetAttributes = {
+					FC0B860C191A424A00B0C5EC = {
+						TestTargetID = FC0B85EB191A424900B0C5EC;
+					};
+				};
+			};
+			buildConfigurationList = FC0B85E7191A424900B0C5EC /* Build configuration list for PBXProject "TestMute" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0B85E3191A424900B0C5EC;
+			productRefGroup = FC0B85ED191A424900B0C5EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0B85EB191A424900B0C5EC /* TestMute */,
+				FC0B860C191A424A00B0C5EC /* TestMuteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0B85EA191A424900B0C5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0B8608191A424A00B0C5EC /* Images.xcassets in Resources */,
+				FC0B85FA191A424900B0C5EC /* InfoPlist.strings in Resources */,
+				FC0B8603191A424A00B0C5EC /* Main.storyboard in Resources */,
+				FC0B862A191A65E400B0C5EC /* MuteChecker.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0B860B191A424A00B0C5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0B8619191A424A00B0C5EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0B85E8191A424900B0C5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0B8606191A424A00B0C5EC /* ViewController.m in Sources */,
+				FC0B8600191A424A00B0C5EC /* AppDelegate.m in Sources */,
+				FC0B85FC191A424900B0C5EC /* main.m in Sources */,
+				FC0B8630191A684700B0C5EC /* MuteChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0B8609191A424A00B0C5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0B861B191A424A00B0C5EC /* TestMuteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0B8613191A424A00B0C5EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0B85EB191A424900B0C5EC /* TestMute */;
+			targetProxy = FC0B8612191A424A00B0C5EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0B85F8191A424900B0C5EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0B85F9191A424900B0C5EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC0B8601191A424A00B0C5EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0B8602191A424A00B0C5EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC0B8617191A424A00B0C5EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0B8618191A424A00B0C5EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0B861C191A424A00B0C5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC0B861D191A424A00B0C5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC0B861F191A424A00B0C5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMute/TestMute-Prefix.pch";
+				INFOPLIST_FILE = "TestMute/TestMute-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC0B8620191A424A00B0C5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMute/TestMute-Prefix.pch";
+				INFOPLIST_FILE = "TestMute/TestMute-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC0B8622191A424A00B0C5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMute.app/TestMute";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMute/TestMute-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestMuteTests/TestMuteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC0B8623191A424A00B0C5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestMute.app/TestMute";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMute/TestMute-Prefix.pch";
+				INFOPLIST_FILE = "TestMuteTests/TestMuteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0B85E7191A424900B0C5EC /* Build configuration list for PBXProject "TestMute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0B861C191A424A00B0C5EC /* Debug */,
+				FC0B861D191A424A00B0C5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0B861E191A424A00B0C5EC /* Build configuration list for PBXNativeTarget "TestMute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0B861F191A424A00B0C5EC /* Debug */,
+				FC0B8620191A424A00B0C5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0B8621191A424A00B0C5EC /* Build configuration list for PBXNativeTarget "TestMuteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0B8622191A424A00B0C5EC /* Debug */,
+				FC0B8623191A424A00B0C5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0B85E4191A424900B0C5EC /* Project object */;
+}

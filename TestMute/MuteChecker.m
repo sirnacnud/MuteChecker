@@ -45,7 +45,7 @@ void MuteCheckCompletionProc(SystemSoundID ssID, void* clientData){
 -(instancetype)initWithCompletionBlk:(MuteCheckCompletionHandler)completionBlk{
 	self = [self init];
 	if (self) {
-		NSURL* url = [[NSBundle mainBundle] URLForResource:@"MuteChecker" withExtension:@"caf"];
+		NSURL* url = [[NSBundle mainBundle] URLForResource:@"MuteChecker" withExtension:@"wav"];
 		if (AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &_soundId) == kAudioServicesNoError){
 			AudioServicesAddSystemSoundCompletion(self.soundId, CFRunLoopGetMain(), kCFRunLoopDefaultMode, MuteCheckCompletionProc,(__bridge void *)(self));
 			UInt32 yes = 1;

@@ -25,7 +25,7 @@ void MuteCheckCompletionProc(SystemSoundID ssID, void* clientData){
 -(void)completed{
 	NSDate *now = [NSDate date];
 	NSTimeInterval t = [now timeIntervalSinceDate:self.startTime];
-	BOOL muted = (t > 0.1)? NO : YES;
+	BOOL muted = (t < 0.5)? YES : NO;
 	self.completionBlk(t, muted);
 }
 

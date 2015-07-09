@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEF0DE911B4E1B48000735A1 /* MuteChecker.wav in Resources */ = {isa = PBXBuildFile; fileRef = AEF0DE901B4E1B48000735A1 /* MuteChecker.wav */; };
 		FC0B85F0191A424900B0C5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85EF191A424900B0C5EC /* Foundation.framework */; };
 		FC0B85F2191A424900B0C5EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85F1191A424900B0C5EC /* CoreGraphics.framework */; };
 		FC0B85F4191A424900B0C5EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B85F3191A424900B0C5EC /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		FC0B8619191A424A00B0C5EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0B8617191A424A00B0C5EC /* InfoPlist.strings */; };
 		FC0B861B191A424A00B0C5EC /* TestMuteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B861A191A424A00B0C5EC /* TestMuteTests.m */; };
 		FC0B8626191A449100B0C5EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0B8625191A449100B0C5EC /* AudioToolbox.framework */; };
-		FC0B862A191A65E400B0C5EC /* MuteChecker.caf in Resources */ = {isa = PBXBuildFile; fileRef = FC0B8624191A42BC00B0C5EC /* MuteChecker.caf */; };
 		FC0B8630191A684700B0C5EC /* MuteChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0B862F191A684700B0C5EC /* MuteChecker.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AEF0DE901B4E1B48000735A1 /* MuteChecker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MuteChecker.wav; sourceTree = SOURCE_ROOT; };
 		FC0B85EC191A424900B0C5EC /* TestMute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0B85EF191A424900B0C5EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC0B85F1191A424900B0C5EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,7 +57,6 @@
 		FC0B8616191A424A00B0C5EC /* TestMuteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMuteTests-Info.plist"; sourceTree = "<group>"; };
 		FC0B8618191A424A00B0C5EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC0B861A191A424A00B0C5EC /* TestMuteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMuteTests.m; sourceTree = "<group>"; };
-		FC0B8624191A42BC00B0C5EC /* MuteChecker.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuteChecker.caf; sourceTree = "<group>"; };
 		FC0B8625191A449100B0C5EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FC0B862E191A684700B0C5EC /* MuteChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteChecker.h; sourceTree = "<group>"; };
 		FC0B862F191A684700B0C5EC /* MuteChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteChecker.m; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		FC0B85F6191A424900B0C5EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC0B8624191A42BC00B0C5EC /* MuteChecker.caf */,
+				AEF0DE901B4E1B48000735A1 /* MuteChecker.wav */,
 				FC0B85F7191A424900B0C5EC /* TestMute-Info.plist */,
 				FC0B85F8191A424900B0C5EC /* InfoPlist.strings */,
 				FC0B85FB191A424900B0C5EC /* main.m */,
@@ -243,7 +243,7 @@
 				FC0B8608191A424A00B0C5EC /* Images.xcassets in Resources */,
 				FC0B85FA191A424900B0C5EC /* InfoPlist.strings in Resources */,
 				FC0B8603191A424A00B0C5EC /* Main.storyboard in Resources */,
-				FC0B862A191A65E400B0C5EC /* MuteChecker.caf in Resources */,
+				AEF0DE911B4E1B48000735A1 /* MuteChecker.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
